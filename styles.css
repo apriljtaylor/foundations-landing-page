@@ -1,0 +1,78 @@
+/*styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+}
+
+header, .hero, footer {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 15px;
+}
+
+.header-links {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+}
+
+
+.hero .text h1 {
+    font-size: 48px;
+    color: #f9FAF8;
+    font-weight: 900;
+}
+
+.hero .text p, .header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button, .cta {    
+    background: #3882F6;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.quote {
+    background: #E5E7EB;
+}
+.quote cite {
+    font-size: 36px;
+    font-weight: 300;
+    font-style:italic;
+    color: #1F2937;
+}
+
+footer {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
