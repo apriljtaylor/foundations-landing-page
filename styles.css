@@ -35,11 +35,18 @@ header {
 /**** hero section ****/
 .hero {
     padding: 100px 200px;
+    gap: 40px;
+}
+.hero .text {
+    flex: 1 1 135px;
 }
 .hero .text h1 {
     font-size: 48px;
     color: #f9FAF8;
     font-weight: 900;
+}
+.hero .text p {
+    margin: 15px 0;
 }
 
 .hero .text p, .header-links {
@@ -48,16 +55,19 @@ header {
 }
 
 button {
-        background: #3882F6;
+    background: #3882F6;
     border-radius: 5px;
     color: #fff;
     padding: 5px 35px;
 }
 
 .hero button {    
-
     border: 1px solid #3882F6;
-font-weight: 900;
+    font-weight: 900;
+}
+
+.hero img {
+    flex: 2 1 0;
 }
 
 /**** information section ****/
@@ -115,9 +125,9 @@ font-weight: 900;
     background: #3882F6;
     border-radius: 10px;
     color: #fff;
-    padding: 40px;
+    padding: 40px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
